@@ -1,0 +1,13 @@
+div.poll {
+	width: 100%;
+	border: 1px solid black;
+}
+
+
+div.progress {
+	height: 4px;
+}
+
+a.poll {
+	text-decoration: none;
+}

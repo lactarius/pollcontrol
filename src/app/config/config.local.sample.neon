@@ -1,0 +1,9 @@
+doctrine:
+	# for local mysql database
+	user: root
+	password: root
+	dbname: db
+	
+	# for sqlite database in file
+	# driver: pdo_sqlite
+	# path: %tempDir%/db.db

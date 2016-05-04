@@ -1,0 +1,36 @@
+#
+# WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
+# http://nette.org/security-warning
+#
+parameters:
+	haf: %tempDir%
+	international: true
+
+
+php:
+	date.timezone: Europe/Prague
+
+
+application:
+	errorPresenter: Error
+	mapping:
+		*: *Module\*Presenter
+
+
+session:
+	expiration: 14 days
+
+
+doctrine:
+	user: xxxx
+	password: xxxx
+	dbname: db
+	metadata:
+		proxyDir: %tempDir%/proxy
+
+
+includes:
+	- includes/eton.neon			# eton polling module
+	- includes/core.neon			# base module
+	- includes/doctrine.neon		# doctrine forever
+	- includes/flame.neon			# last in definition

@@ -1,0 +1,12 @@
+div.ebc {
+	height: 100vh;
+	background-image: url('../images/eton.png');
+	background-size: 100%;
+}
+
+div.ebc-poll {
+	position: absolute;
+	left: 70%;
+	top: 9%;
+	width: 30%
+}

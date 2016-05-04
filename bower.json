@@ -1,0 +1,25 @@
+{
+  "name": "eton",
+  "description": "Polling example",
+  "main": "gulpfile.js",
+  "authors": [
+    "Petr Blazicek"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "poll",
+    "vote"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.1",
+    "bootstrap": "^3.3.6"
+  }
+}

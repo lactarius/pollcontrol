@@ -1,0 +1,18 @@
+<div class="poll container">
+	<h4 class="pull-left">{$header}</h4>
+	<div class="container col-md-12">
+		{snippet vote}
+			{foreach $vote as $item}
+
+				<span>
+					<a class="poll ajax" n:href="vote! $iterator->counter">
+						{$item}
+					</a>
+				</span>
+				<span class="pull-right">{$percentage[$iterator->counter]}%</span>
+				<div class="progress progress-bar-{$voteClass[$iterator->counter]}" style="width: {round($percentage[$iterator->counter])}%"></div>
+
+			{/foreach}
+		{/snippet}
+	</div>
+</div>
