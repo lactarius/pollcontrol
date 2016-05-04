@@ -3,6 +3,7 @@ src/temp/cache/*
 src/temp/proxy/*
 src/temp/btfj.dat
 tests/tmp/*
+composer.lock
 node_modules
 bower_components
 src/www/js/*

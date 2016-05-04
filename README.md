@@ -38,6 +38,16 @@ doctrine:
 	password: root
 	dbname: db
 ```
+Create database using Doctrine command
+```shell
+php src/www/index.php orm:schema-tool:create
+OR
+./bin/r.sh orm:schema-tool:create
+```
+or import structure to Your MySQL server from resources
+```shell
+resources/et_poll.sql
+```
 For testing purposes is defaultly disabled checking of **IP uniqueness**.
 You can turn on this in main config file `config.neon`:
 ```yaml
