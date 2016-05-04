@@ -31,7 +31,7 @@ cd src/app/config/
 cp config.local.sample.neon config.local.neon
 ```
 Edit config file and fill Your credentials and change database name, if necessary.
-```neon
+```yaml
 doctrine:
 	# for local mysql database
 	user: root
@@ -40,7 +40,7 @@ doctrine:
 ```
 For testing purposes is defaultly disabled checking of **IP uniqueness**.
 You can turn on this in main config file `config.neon`:
-```neon
+```yaml
 parameters:
 	international: true
 	checkIp: false
