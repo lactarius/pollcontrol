@@ -1,4 +1,11 @@
 ## Poll control example
+##### Used technologies
+- Nette framework
+- AJAX realized with pure Nette resources (snippets & subrequests)
+- Designed using Bootstrap 3
+- Assets downloaded & installed with npm, bower & gulp
+
+##### Obtaining repository
 Clone repository
 ```shell
 git clone
