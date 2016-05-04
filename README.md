@@ -1,4 +1,4 @@
-### Poll control example
+## Poll control example
 Clone repository
 ```shell
 git clone
