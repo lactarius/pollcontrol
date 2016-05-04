@@ -6,10 +6,8 @@
 - Assets downloaded & installed with npm, bower & gulp
 
 ##### Obtaining repository
-Clone repository
-```shell
-git clone
-```
+Clone repository first
+
 Install PHP libraries using Composer
 ```shell
 composer install
