@@ -24,3 +24,25 @@ Compile assets by gulp
 ```shell
 gulp
 ```
+##### Setup
+Copy sample config file to new local config
+```shell
+cd src/app/config/
+cp config.local.sample.neon config.local.neon
+```
+Edit config file and fill Your credentials and change database name, if necessary.
+```neon
+doctrine:
+	# for local mysql database
+	user: root
+	password: root
+	dbname: db
+```
+For testing purposes is defaultly disabled checking of **IP uniqueness**.
+You can turn on this in main config file `config.neon`:
+```neon
+parameters:
+	international: true
+	checkIp: false
+```
+changing the **checkIp** parameter to value **true**.

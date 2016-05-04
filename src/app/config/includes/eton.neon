@@ -2,10 +2,6 @@ extensions:
 	eton: EtonModule\DI\EtonExtension
 
 
-parameters:
-	checkIp: false
-
-
 services:
 	-	Eton\Model\PollFacade
 	-

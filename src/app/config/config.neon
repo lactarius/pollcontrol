@@ -3,8 +3,8 @@
 # http://nette.org/security-warning
 #
 parameters:
-	haf: %tempDir%
 	international: true
+	checkIp: false
 
 
 php:
